@@ -20,10 +20,11 @@ profit = prices[j]-prices[i];
 sum.push_back(profit);
 }
 }
+
 }
         
 for(auto i:sum)
-profit=max(profit,i);
+profit=max(profit,i );
         
 return profit;
 }
